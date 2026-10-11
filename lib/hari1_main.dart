@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class SpacingTextWidget extends StatelessWidget {
   const SpacingTextWidget({super.key});
 
