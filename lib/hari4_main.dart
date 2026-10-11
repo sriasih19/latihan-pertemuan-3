@@ -20,14 +20,15 @@ class MyApp extends StatelessWidget {
   }
 }
 
+// Hari 4: RichText dan TextSpan
 class RichTextWidget extends StatelessWidget {
   const RichTextWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Center(
+    return Center(
       child: RichText(
-        text: TextSpan(
+        text: const TextSpan(
           style: TextStyle(
             fontSize: 20,
             color: Colors.black,
